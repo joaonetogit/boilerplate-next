@@ -1,0 +1,15 @@
+.main-button {
+  @include flexCenterGap(1rem);
+
+  button {
+    background-color: $emerald-600;
+    border-radius: 6px;
+    color: $blue-950;
+    padding: 10px 12px;
+    transition: all 0.3s ease-in-out;
+
+    &:hover{
+      background-color: darken($color: $emerald-600, $amount: 5);
+    }
+  }
+}

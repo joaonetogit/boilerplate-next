@@ -1,0 +1,80 @@
+@mixin flexCentered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin flexSpaced {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@mixin flexColumnGap($gap) {
+  display: flex;
+  flex-direction: column;
+  gap: $gap;
+}
+
+@mixin flexCenterGap($gap) {
+  display: flex;
+  align-items: center;
+  gap: $gap;
+}
+
+@mixin flexBetween {
+  display: flex;
+  justify-content: space-between;
+}
+
+@mixin ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@mixin cover-background($type) {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: $type;
+}
+
+@mixin keyframes($name) {
+  @-webkit-keyframes #{$name} {
+    @content;
+  }
+
+  @-moz-keyframes #{$name} {
+    @content;
+  }
+
+  @keyframes #{$name} {
+    @content;
+  }
+}
+
+@mixin limitVertical($lines) {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: $lines;
+  -webkit-box-orient: vertical;
+}
+
+@mixin limitHorizontal($size) {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-width: $size;
+}
+
+@mixin img($type) {
+  width: 100%;
+  height: 100%;
+  object-fit: $type;
+}
+
+@mixin button-disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+  pointer-events: none;
+}

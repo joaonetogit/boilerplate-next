@@ -1,0 +1,6 @@
+.home {
+  @include flexCentered();
+  flex-direction: column;
+  gap: 1rem;
+  background-color: $blue-500;
+}
