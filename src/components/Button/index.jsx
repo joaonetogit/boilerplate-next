@@ -4,7 +4,7 @@
 import { useState } from 'react';
 
 // Styles
-import 'styles/components/button.scss';
+import '@/styles/components/button.scss';
 
 const Button = () => {
   const [count, setCount] = useState(1);

@@ -7,11 +7,11 @@
 * {
   margin: 0;
   padding: 0;
+}
 
-  &::before,
-  &::after {
-    pointer-events: none;
-  }
+*::before,
+*::after {
+  pointer-events: none;
 }
 
 html,
@@ -28,22 +28,28 @@ body {
   -moz-osx-font-smoothing: grayscale;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
+  font-family: 'Inter', sans-serif;
 }
 
-:where(figure) {
+figure {
   margin: 0;
 }
 
-:where(table, th, td) {
+table,
+th,
+td {
   border-collapse: collapse;
 }
 
-:where(img, picture, video, canvas) {
+img,
+picture,
+video,
+canvas {
   display: block;
   max-width: 100%;
 }
 
-:where(img) {
+img {
   height: auto;
   -ms-interpolation-mode: bicubic;
   vertical-align: middle;
@@ -53,16 +59,26 @@ body {
   font-style: italic;
 }
 
-:where(input, button, textarea, select) {
+input,
+button,
+textarea,
+select {
   font: inherit;
   border: none;
 }
 
-:where(p, h1, h2, h3, h4, h5, h6) {
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   overflow-wrap: break-word;
 }
 
-:where(ul, ol) {
+ul,
+ol {
   list-style: none;
 }
 

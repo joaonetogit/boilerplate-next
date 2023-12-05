@@ -1,7 +1,7 @@
 .header {
   padding: 12px 0;
-  color: $blue-50;
-  background-color: $blue-950;
+  color: $link-color;
+  background-color: $gray-900;
 
   .wrapper {
     @include flexSpaced();

@@ -2,10 +2,10 @@
 import Link from 'next/link';
 
 // Styles
-import 'styles/components/header.scss';
+import '@/styles/components/header.scss';
 
 // Contants
-import { navLinks } from 'constants/Header';
+import { navLinks } from '@/constants/Header';
 
 const Header = () => {
   return (

@@ -6,12 +6,8 @@ const pathTokens = 'styles/tokens/';
 const nextConfig = {
   sassOptions: {
     additionalData: `
-      @import "${pathTokens}/primitives/colors.scss";
-      @import "${pathTokens}/primitives/numbers.scss";
-      @import "${pathTokens}/semantics/border.scss";
-      @import "${pathTokens}/semantics/border.scss";
-      @import "${pathTokens}/semantics/colors.scss";
-      @import "${pathTokens}/semantics/spacing.scss";
+      @import "${pathTokens}/colors.scss";
+      @import "${pathTokens}/numbers.scss";
       @import "${pathStyles}/utils/mixins.scss";
       @import "${pathStyles}/utils/classes.scss";
       @import "${pathStyles}/utils/typography.scss";
