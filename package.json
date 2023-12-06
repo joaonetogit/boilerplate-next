@@ -1,7 +1,16 @@
 {
-  "name": "boilerplate-next",
+  "name": "boilerplate-nextjs",
   "version": "1.0.0",
-  "private": true,
+  "description": "Boilerplate NextJS",
+  "author": "João Pinheiro <joaoneto.work@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "nextjs",
+    "storybook",
+    "sass",
+    "eslint",
+    "prettier"
+  ],
   "scripts": {
     "dev": "next dev",
     "build": "next build",
