@@ -1,5 +1,5 @@
 // Styles
-import 'styles/pages/page.scss';
+import '@/styles/pages/page.scss';
 
 // Components
 import Button from '@/components/Button';

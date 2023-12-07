@@ -16,8 +16,8 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
 export const metadata = {
-  title: 'Template',
-  description: 'NextJS, Scss, Storybook',
+  title: 'Boilerplate NextJS',
+  description: 'NextJS, Sass, Storybook',
 };
 
 export default function RootLayout({ children }) {
