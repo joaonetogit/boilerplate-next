@@ -10,7 +10,9 @@ const Button = () => {
   const [count, setCount] = useState(1);
   return (
     <div className="main-button">
-      <button onClick={() => setCount(count + 1)}>Increase number</button>
+      <button type="button" onClick={() => setCount(count + 1)}>
+        Increase number
+      </button>
       <p>{count}</p>
     </div>
   );

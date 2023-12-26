@@ -16,6 +16,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "prettier": "prettier . --write",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
   },

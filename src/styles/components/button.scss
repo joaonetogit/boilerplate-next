@@ -2,10 +2,10 @@
   @include flexCenterGap(1rem);
 
   button {
-    background-color:$warning;
+    background-color: $warning;
     border-radius: 6px;
     color: $text-color;
-    padding: 10px 12px;
+    padding: 10px $size-03;
     transition: all 0.3s ease-in-out;
 
     &:hover {

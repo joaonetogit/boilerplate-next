@@ -1,7 +1,5 @@
 .about-us {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @include flexCentered();
   background-color: blueviolet;
   color: white;
 }
